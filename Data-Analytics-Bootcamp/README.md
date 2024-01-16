@@ -37,7 +37,8 @@ NORTHWIND Data Model
 --------------------
 All of the questions and queries in this assignment refer to Northwind DB
 
-![image](https://github.com/BedirK/Data-Analytics-Bootcamp---SQL/assets/103532330/764a1929-f232-457a-bda1-51c0a67fee77)
+![image](https://github.com/BedirK/SQL-Projects-Studies/assets/103532330/947725be-b24e-4442-bfe9-9fbd36377c43)
+
 
 SQL Topics Covered
 -----------------------
