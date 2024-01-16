@@ -2,6 +2,8 @@
 
 Coursera.org - SQL for Data Science Course Assignments (Levels 1-2-3)
 
+
+
 Related Query Files:
 -----------------------
 *[Questions & Answers  - Part 01](https://github.com/BedirK/SQL-Projects-Studies/blob/main/Coursera.org%20-%20SQL%20for%20Data%20Science/Questions-Answers%201.sql)
@@ -13,6 +15,8 @@ Related Query Files:
 ------------------------------------------------------------------------------------------------------------
 
 All of the questions in this assignment refer to the open source Chinook Database. 
+
+Chinook Database is a sample database often used for educational and practice purposes in the field of RDBMS. It represents a fictional digital media store, containing tables that store information about customers, employees, invoices, tracks, albums, and more.
 
 Here is below --> Chinook Database Schema
 
