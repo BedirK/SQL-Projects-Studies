@@ -1,5 +1,5 @@
 ## Northwind Database Querying with MS SQL
-MSSQL Studies by Azure Data Studio
+MS SQL Studies by Azure Data Studio
 
 Related Query Files:
 -----------------------
