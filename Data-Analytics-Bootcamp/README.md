@@ -3,11 +3,11 @@ MSSQL Studies by Azure Data Studio
 
 Related Query Files:
 -----------------------
-*[Questions & Answers  - Part 01](https://github.com/BedirK/Data-Analytics-Bootcamp-SQL/blob/main/Q%26A%20Sessions%20-%20Part%2001.sql)
+*[Questions & Answers  - Part 01](https://github.com/BedirK/SQL-Projects-Studies/blob/main/Data-Analytics-Bootcamp/Q%26A%20Sessions%20-%20Part%2001.sql)
 
-*[Questions & Answers  - Part 02](https://github.com/BedirK/Data-Analytics-Bootcamp-SQL/blob/main/Q%26A%20Sessions%20-%20Part%2002.sql)
+*[Questions & Answers  - Part 02](https://github.com/BedirK/SQL-Projects-Studies/blob/main/Data-Analytics-Bootcamp/Q%26A%20Sessions%20-%20Part%2002.sql)
 
-*[Questions & Answers  - Part 03](https://github.com/BedirK/Data-Analytics-Bootcamp-SQL/blob/main/Q%26A%20Sessions%20-%20Part%2003.sql)
+*[Questions & Answers  - Part 03](https://github.com/BedirK/SQL-Projects-Studies/blob/main/Data-Analytics-Bootcamp/Q%26A%20Sessions%20-%20Part%2003.sql)
 
 ------------------------------------------------------------------------------------------------------------
 - The Northwind database, created by Microsoft for training and educational purposes, and its E-R diagram present numerous business drivers that can be derived as follows:
