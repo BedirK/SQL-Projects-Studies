@@ -1,4 +1,4 @@
-# SQL_Repo_Assignments
+# SQL_Assignments
 
 Coursera.org - SQL for Data Science Course Assignments (Levels 1-2-3)
 
