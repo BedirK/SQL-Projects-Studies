@@ -136,8 +136,8 @@ FROM Orders
 WHERE DATEDIFF(DAY, ShippedDate, RequiredDate) > 0 
 ORDER BY GecikmeSuresi DESC
 
--- "Geciken Urunler"in ortalama Kac gun Geciktiğini bulan sorguyu yazınız.
--- Write the query that will find the average number of days that products are late for delivery.
+--"Geciken Urunler"in ortalama Kac gun Geciktiğini bulan sorguyu yazınız.
+--Write the query that will find the average number of days that products are late for delivery.
 
 SELECT OrderID, AVG(GecikmeSuresi) OrtalamaGecikmeSuresi FROM
 (SELECT OrderID, RequiredDate, ShippedDate, DATEDIFF(DAY, ShippedDate, RequiredDate) GecikmeSuresi
@@ -145,7 +145,7 @@ FROM Orders
 WHERE DATEDIFF(DAY, ShippedDate, RequiredDate) > 0 ) A 
 GROUP BY OrderID
 
--- "Erken Giden Urunlerin" ortalama kac gun erken gittiğini bulan sorguyu yazınız.
+--"Erken Giden Urunlerin" ortalama kac gun erken gittiğini bulan sorguyu yazınız.
 --Write the query that finds the average number of days early delivery of products.
 
 SELECT OrderID, AVG(ErkenTeslimSuresi) OrtalamaErkenTeslimSuresi FROM
