@@ -1,0 +1,25 @@
+--Soru: Şehir bilgisi London veya Tacoma olan tüm personelin id , ad ve soyad bilgisini çekiniz
+--Provide the id, first name and last name of all personnel whose city information is London or Tacoma.
+
+SELECT EmployeeID, LastName, FirstName, City
+FROM Employees
+WHERE City = 'Tacoma' OR City = 'London'
+ 
+--Soru: CategoryId adetlerini ayrı ayrı hesaplanyınız (ürünler)
+--Calculate number of CategoryId quantities separately (products)
+
+SELECT CategoryID,
+COUNT (CategoryID) adet
+FROM Products
+GROUP BY CategoryID
+
+--Soru: CategoryId bazında min , max ve ortalama birim fiyatlarını hesaplayınız (Max fiyatlara göre yüksek fiyattan düşük fiyata sıralanması)
+--Calculate min, max and average unit prices based on CategoryId ((Sorting from high price to low price according to max prices)
+
+SELECT CategoryID, MIN(UnitPrice) min_br_fyt, MAX(UnitPrice) max_br_fyt, AVG(UnitPrice) ort_br_fyt
+FROM Products
+GROUP BY CategoryID
+ORDER BY MAX (UnitPrice) DESC
+
+--Soru: Customer tablosunundan ContactName, Orders tablosundan OrderID’ı çekiniz
+--Question: Provide ContactName from the Customer table and OrderID from the Orders table
