@@ -5,3 +5,5 @@ My Projects and Studies by using SQL
   
 * [Coursera - SQL for Data Science Course Assignments](https://github.com/BedirK/SQL-Projects-Studies/tree/main/Coursera.org%20-%20SQL%20for%20Data%20Science)
 
+* [Kaggle - SQL and BigQuery Course](https://github.com/BedirK/SQL-Projects-Studies/tree/main/SQL%20and%20BigQuery)
+
