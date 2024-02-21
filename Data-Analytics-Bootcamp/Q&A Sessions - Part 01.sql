@@ -134,9 +134,9 @@ ORDER BY DelayTime DESC
 --Write the query that will find the average number of days that products are late for delivery.
 
 SELECT OrderID, AVG(DelayTime) AS AvgDelayTime FROM
-(SELECT OrderID, RequiredDate, ShippedDate, DATEDIFF(DAY, ShippedDate, RequiredDate) AS DelayTime
+(SELECT OrderID, RequiredDate, ShippedDate, DATEDIFF(DAY, RequiredDate, ShippedDate) AS DelayTime
 FROM Orders     
-WHERE DATEDIFF(DAY, ShippedDate, RequiredDate) > 0 ) A 
+WHERE DATEDIFF(DAY, RequiredDate, ShippedDate) > 0 ) A 
 GROUP BY OrderID
 
 --"Erken Giden Urunlerin" ortalama kac gun erken gittiğini bulan sorguyu yazınız.
@@ -145,5 +145,5 @@ GROUP BY OrderID
 SELECT OrderID, AVG(EarlyDeliveryTime) AS AvgEarlyDeliveryTime FROM
 (SELECT OrderID, RequiredDate, ShippedDate, DATEDIFF(DAY, RequiredDate, ShippedDate) AS EarlyDeliveryTime
 FROM Orders     
-WHERE DATEDIFF(DAY, RequiredDate, ShippedDate) > 0 ) B
+WHERE DATEDIFF(DAY, RequiredDate, ShippedDate) < 0 ) B
 GROUP BY OrderID
