@@ -50,7 +50,7 @@ SQL Topics Covered
 - Constraints: NOT NULL
 - Aggregations: MAX, MIN, AVG, SUM, COUNT, COUNT DISTINCT
 - Joining: INNER JOIN, LEFT JOIN, UNION
-- Window Functions: ROW_NUMBER, RANK, LAG
+- Window Functions: ROW_NUMBER, RANK, LAG, LEAD
 - Advanced Functions: CONCAT, DATEDIFF, ROUND, EOMONTH
 - Subqueries: Nested, Correlated
 --------------------------------
