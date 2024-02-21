@@ -51,8 +51,8 @@ SQL Topics Covered
 - Aggregations: MAX, MIN, AVG, SUM, COUNT, COUNT DISTINCT
 - Joining: INNER JOIN, LEFT JOIN, UNION
 - Window Functions: ROW_NUMBER, RANK, LAG, LEAD
-- Advanced Functions: CONCAT, DATEDIFF, ROUND, EOMONTH
-- Subqueries: Nested, Correlated
+- Advanced Functions: CONCAT, DATEDIFF, ROUND, EOMONTH, DATEPART, NTILE, VIEW, CASE WHEN
+- Subqueries: Nested, Correlated, CTE
 --------------------------------
 - CRUD (Create, Read, Update, Delete) Operations
 - DDL  (Data Definition) Operations
